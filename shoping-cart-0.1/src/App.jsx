@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import MainPage from './pages/MainPage/MainPage'
 import './App.css'
 
 function App() {
@@ -6,9 +7,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>shoping cart</h1>
+      <MainPage />
     </div>
-    )
+  )
 }
 
 export default App

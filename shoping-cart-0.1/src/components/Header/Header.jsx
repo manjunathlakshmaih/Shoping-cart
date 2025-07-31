@@ -7,8 +7,8 @@ const Header = () => {
             <div className="container">
                 <section className="logo">
                     <strong>VR</strong>
-                    <span class="blue-dot"></span>
-                    <span class="blue-dot"></span>
+                    <span className="blue-dot"></span>
+                    <span className="blue-dot"></span>
                     <span>headset</span>
                 </section>
                 <nav>

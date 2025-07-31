@@ -3,7 +3,7 @@ import "./CopyRight.css";
 
 const CopyRight = () => {
   return (
-    <section class="copyright">
+    <section className="copyright">
       &reg; All Rights Reserved
     </section>
   )

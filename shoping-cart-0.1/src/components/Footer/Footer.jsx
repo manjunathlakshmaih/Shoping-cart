@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer-field">
       <div className="container">
          <ul>
-          <li class="list-title">Categories</li>
+          <li className="list-title">Categories</li>
           <li><a href="#">Wateches</a></li>
           <li><a href="#" >Cameras</a></li>
           <li><a href="#" >Phones</a></li>
@@ -14,7 +14,7 @@ const Footer = () => {
           <li><a href="#" >Computers</a></li>
         </ul>
         <ul>
-          <li class="list-title">About us</li>
+          <li className="list-title">About us</li>
           <li><a href="#" >Our Story</a></li>
           <li><a href="#" >Press</a></li>
           <li><a href="#" >Blog</a></li>
@@ -22,7 +22,7 @@ const Footer = () => {
           <li><a href="#" >Stores</a></li>
         </ul>
         <ul>
-          <li class="list-title">Social Media</li>
+          <li className="list-title">Social Media</li>
           <li><a href="#" >Facebook</a></li>
           <li><a href="#" >Instagram</a></li>
           <li><a href="#" >Twitter</a></li>
@@ -30,7 +30,7 @@ const Footer = () => {
           <li><a href="#" >Youtube</a></li>
         </ul>
         <ul>
-          <li class="list-title">Customer Service</li>
+          <li className="list-title">Customer Service</li>
           <li><a href="#" >Live Chat</a></li>
           <li><a href="#" >Contact us</a></li>
           <li><a herf ="#">Terms & Condition</a></li>

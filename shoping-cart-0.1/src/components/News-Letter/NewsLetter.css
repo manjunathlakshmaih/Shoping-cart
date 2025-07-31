@@ -14,14 +14,17 @@
   line-height: 42px;
   margin-top: 0;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .news-letter p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: black;
   margin-top: 0;
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 .news-letter input[type="email"] {
@@ -48,4 +51,39 @@
   color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .news-letter {
+    width: 880px;
+    padding: 50px 0;
+    margin: 70px auto;
+  }
+
+  .news-letter h3 {
+    font-size: 22px;
+  }
+
+  .news-letter p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 25px;
+  }
+
+  .news-letter input[type="email"] {
+    height: 46px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .news-letter button[type="submit"] {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (max-width: 576px) {
 }

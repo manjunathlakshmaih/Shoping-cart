@@ -109,3 +109,38 @@
   background-color: #33c6dd;
   border: 10px solid #33c6dd;
 }
+
+@media screen and (max-width: 1440px) {
+  .product-info h5 {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .product-info h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .product-info .price h3 {
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+
+  .product-info .price span.verginal-price {
+    margin: 0 10px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .product-info button {
+    font-size: 14px;
+    line-height: 21px;
+    width: 180px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (max-width: 576px) {
+}

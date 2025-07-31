@@ -5,6 +5,7 @@ import ProductSlider from "../../components/Product-slider/ProductSlider";
 import NewsLetter from "../../components/News-Letter/NewsLetter";
 import Footer from "../../components/Footer/Footer";
 import CopyRight from "../../components/Copyright/CopyRight";
+import "./MainPage.css";
 
 const MainPage = () => {
   return (

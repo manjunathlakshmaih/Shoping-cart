@@ -1,0 +1,39 @@
+.footer-field {
+  background-color: #000000;
+  color: white;
+  padding: 60px 0;
+}
+.footer-field .container {
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-field .container ul {
+  list-style: none;
+}
+
+.footer-field .container ul li {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-field ul li.list-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.footer-field .container ul li a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-field .container ul li a:hover {
+  cursor: pointer;
+  color: #33c6dd;
+}

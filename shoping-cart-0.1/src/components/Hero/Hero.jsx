@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="hero-content">
                 <div className="container">
                     <h1>Discover our line of VR Headsets</h1>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    <p className='paragrap'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                     <button>View Headset</button>
                 </div>
             </div>

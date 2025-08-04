@@ -2,7 +2,7 @@
   margin-top: 90px;
 }
 
-.product-slider h1 {
+.product-slider h2 {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 34px;
@@ -24,7 +24,7 @@
   text-align: center;
 }
 .product-details .container .product {
-  width: 33%;
+  width: 100%;
   border: 1px solid #dddddd;
   margin: 0 8px;
   border-radius: 8px;
@@ -111,6 +111,14 @@
 }
 
 @media screen and (max-width: 1440px) {
+   .product-details .container {
+    flex-wrap: wrap;
+  }
+
+  .product-details .container .product {
+    width: 100%;
+    margin-bottom: 24px;
+  }
   .product-info h5 {
     font-size: 12px;
     margin-bottom: 8px;
@@ -140,7 +148,87 @@
 }
 
 @media screen and (max-width: 960px) {
+  .product-details .container {
+    flex-wrap: wrap;
+  }
+
+  .product-details .container .product {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .product-info h5 {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .product-info h4 {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+
+  .product-info .price h3 {
+    font-size: 16px;
+  }
+
+  .product-info .price span.verginal-price {
+    font-size: 9px;
+  }
+
+  .product-info button {
+    font-size: 12px;
+    line-height: 18px;
+    width: 146px;
+    height: 36px;
+  }
+
+  .new::before {
+    top: 6px;
+    right: 6px;
+    font-size: 11px;
+    padding: 5px 14px;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .product-details .container {
+    flex-wrap: wrap;
+  }
+
+  .product-details .container .product {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .product-details .container .product:last-of-type {
+    margin-bottom: 0px;
+  }
+  .product-info h5 {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .product-info h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .product-info .price h3 {
+    font-size: 20px;
+  }
+
+  .product-info .price span.verginal-price {
+    font-size: 11px;
+  }
+
+  .product-info button {
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 100%;
+    width: 190px;
+    height: 36px;
+  }
+
+  .new::before {
+    top: 6px;
+    right: 6px;
+    font-size: 11px;
+    padding: 5px 14px;
+  }
 }

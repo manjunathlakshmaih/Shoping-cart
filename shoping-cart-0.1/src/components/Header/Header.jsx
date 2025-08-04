@@ -1,4 +1,5 @@
 import React from "react";
+import menu_icon from '../../assets/menu_icon.png'
 import "./Header.css";
 
 const Header = () => {
@@ -16,6 +17,7 @@ const Header = () => {
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Promotion</a></li>
                         <li><a href="#">Newsletter</a></li>
+                        <li className="menu-icon"><img src={menu_icon}/></li>
                     </ul>
                 </nav>
             </div>

@@ -14,13 +14,3 @@ section.copyright {
     font-size: 14px;
   }
 }
-
-@media screen and (max-width: 960px) {
-  section.copyright {
-    font-size: 14px;
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-}

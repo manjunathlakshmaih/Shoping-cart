@@ -48,7 +48,6 @@
     max-width: 90%;
   }
 
-
   .footer-field .container ul li {
     font-size: 14px;
     line-height: 21px;
@@ -58,13 +57,20 @@
     font-size: 16px;
     margin-bottom: 12px;
   }
-
-
-  
-}
-
-@media screen and (max-width: 960px) {
 }
 
 @media screen and (max-width: 576px) {
+  .footer-field .container {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .footer-field .container ul{
+    width: 100%;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .footer-field .container ul:last-of-type{
+    margin-bottom: 0px;
+  }
 }

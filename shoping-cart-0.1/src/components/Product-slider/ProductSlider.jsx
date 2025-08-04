@@ -7,7 +7,7 @@ import "./ProductSlider.css";
 const ProductSlider = () => {
   return (
     <section className="product-slider">
-      <h1>Best Seller</h1>
+      <h2>Best Seller</h2>
       <hr />
       <div className="product-details">
         <div className="container">

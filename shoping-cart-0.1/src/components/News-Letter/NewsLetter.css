@@ -83,7 +83,35 @@
 }
 
 @media screen and (max-width: 960px) {
+  .news-letter {
+    width: 100%;
+    margin: 48px auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .news-letter {
+    padding: 63px 0;
+    margin: 44px auto;
+  }
+
+  .news-letter input[type="email"] {
+    height: 46px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .news-letter button[type="submit"] {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .news-letter input[type="email"] {
+    width: 210px;
+  }
+
+  .news-letter button[type="submit"] {
+    height: 48px;
+    padding: 0 20px;
+  }
 }
